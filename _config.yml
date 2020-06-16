@@ -1,0 +1,95 @@
+# Site settings
+title: Magical-E
+SEOTitle: Magical-E的博客
+header-img: img/home-bg.jpg
+email: 525585545@qq.com
+description: My Blog
+keyword: ""
+url: "https://magical-e.github.io"              # your host, for absolute URL
+baseurl: "https://magical-e.club"                           
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "记录生活，学习请关注知乎、CSDN和GitHub"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: false    
+zhihu_username:     Magical-E
+github_username:    Magical-E
+CSDN_username:      qq_44275286
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+#Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 38ef34b542f09177c2f1                            #生成的clientID
+  clientSecret: 7dc6c64f5b444255cdda8827394addc3b965370d    #生成的clientSecret
+  repo: magical-e.github.io    #仓库名称
+  owner: Magical-E    #github用户名
+  admin: Magical-E
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+# Analytics settings
+# Baidu Analytics 
+ba_track_id: f46ee099a3ed29d08d3c690a1d8850c4
+# Google Analytics
+ga_track_id: 'UA-144577553-1'
+ga_domain: magical-e.club
+
+# Featured Tags
+featured-tags: false                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# Friends
+friends: [
+    {
+        title: "Ray's Blog",
+        href: "http://www.ruiguo.me"
+    },{
+        title: "OhYee博客",
+        href: "https://www.oyohyee.com"
+    },{
+        title: "Hi, DIYgod",
+        href: "https://diygod.me"
+    },{
+        title: "Typecho爱好者博客",
+        href: "https://qqdie.com"
+    }
+    
+]
+
