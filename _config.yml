@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: 525585545@qq.com
 description: My Blog
 keyword: ""
-url: "https://magical-e.github.io"              # your host, for absolute URL
+url: "https://magical-e.club"              # your host, for absolute URL
 baseurl: "https://magical-e.club"                           
 
 # Sidebar settings
@@ -55,7 +55,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 38ef34b542f09177c2f1                            #生成的clientID
   clientSecret: 7dc6c64f5b444255cdda8827394addc3b965370d    #生成的clientSecret
-  repo: magical-e.github.io    #仓库名称
+  repo: Blog    #仓库名称
   owner: Magical-E    #github用户名
   admin: Magical-E
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
