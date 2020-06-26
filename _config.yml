@@ -51,14 +51,18 @@ kramdown:
       start_line: 1
 
 #Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 38ef34b542f09177c2f1                            #生成的clientID
-  clientSecret: 7dc6c64f5b444255cdda8827394addc3b965370d    #生成的clientSecret
-  repo: Blog    #仓库名称
-  owner: Magical-E    #github用户名
-  admin: Magical-E
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# gitalk:
+#   enable: true    #是否开启Gitalk评论
+#   clientID: 38ef34b542f09177c2f1                            #生成的clientID
+#   clientSecret: 7dc6c64f5b444255cdda8827394addc3b965370d    #生成的clientSecret
+#   repo: Blog    #仓库名称
+#   owner: Magical-E    #github用户名
+#   admin: Magical-E
+#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+ disqus settings
+ disqus:
+ disqus_username: magical-e
 
 # Analytics settings
 # Baidu Analytics 
