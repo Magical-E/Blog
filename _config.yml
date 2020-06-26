@@ -60,9 +60,9 @@ kramdown:
 #   admin: Magical-E
 #   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
- disqus settings
- disqus:
- disqus_username: magical-e
+#disqus settings
+disqus:
+disqus_username: magical-e
 
 # Analytics settings
 # Baidu Analytics 
