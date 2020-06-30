@@ -1,10 +1,9 @@
 # Site settings
-title: Magical-E
-SEOTitle: Magical-E的博客
+title: Magical-E Blog
+SEOTitle: Magical-E Blog
 header-img: img/home-bg.jpg
-email: 525585545@qq.com
 description: My Blog
-keyword: ""
+keyword: "人生思考 读书笔记 生活记录"
 url: "https://magical-e.club"              # your host, for absolute URL
 baseurl: "https://magical-e.club"                           
 
@@ -95,7 +94,10 @@ friends: [
         href: "https://qqdie.com"
     },{
         title: "进击的算法工程师",
-        href: "https://www.liuxunzhuo.tech/"
+        href: "https://www.liuxunzhuo.tech"
+    },{
+        title: "Tony Xu Blog",
+        href: "https://tonyxu.io"
     }
     
 ]
