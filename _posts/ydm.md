@@ -1,3 +1,19 @@
+---
+layout:     post
+title:      【优动漫教程】优动漫paint简介及如何使用优惠码购买正版优动漫paint
+subtitle:   
+date:       2021-07-01
+author:     Magical-E
+header-img: img/pic4.png
+catalog: true
+categories:  
+tags:
+    - 
+    - 
+    - 
+    - 
+    - 
+--- 
 板绘有四大软件：PS、SAI、CSP（全称Clip Studio Paint）和MediBang Paint。
 
 而优动漫Paint则为CSP的国内代理版，与原版几乎一模一样，只是语言为简体中文而已。
