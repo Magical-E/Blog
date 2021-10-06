@@ -4,8 +4,8 @@ SEOTitle: Magical-E Blog
 header-img: img/home-bg.jpg
 description: My Blog
 keyword: "人生思考 读书笔记 生活记录"
-url: "https://magical-e.club"              # your host, for absolute URL
-baseurl: "https://magical-e.club"                           
+url: "https://magical-e.work"              # your host, for absolute URL
+baseurl: "https://magical-e.work"                           
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
